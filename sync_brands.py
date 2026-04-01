@@ -25,31 +25,47 @@ brands_data = [
     }
 ]
 
+
 def create_markdown(brand):
-    # Folder tujuan
     directory = "directory"
     if not os.path.exists(directory):
         os.makedirs(directory)
-    
-    # Format isi file Markdown (GEO Friendly)
+
+    # Skema JSON-LD untuk AI
+    json_ld = f"""
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{brand['name']}",
+  "description": "{brand['desc']}",
+  "url": "https://dgeomart.com{brand['slug']}",
+  "address": {{
+    "@type": "PostalAddress",
+    "addressLocality": "{brand['city']}",
+    "addressCountry": "ID"
+  }},
+  "geo": {{
+    "@type": "GeoCoordinates",
+    "latitude": {brand['lat']},
+    "longitude": {brand['long']}
+  }}
+}}
+</script>
+"""
+
     content = f"""---
-title: "{brand['name']}"
-brand_slug: "{brand['slug']}"
-category: "{brand['category']}"
-geo_location:
-  type: "Point"
-  coordinates: [{brand['long']}, {brand['lat']}]
-address: "{brand['city']}"
-source: "{brand['url']}"
+title: "{brand['name']} - {brand['city']}"
 ---
+{json_ld}
 
 # {brand['name']} - {brand['city']}
-
 {brand['desc']}
 
-Temukan produk original **{brand['name']}** melalui platform [DGeomart](https://dgeomart.com{brand['slug']}).
+[Cek Produk di DGeomart]({brand['url']})
 """
-    
+    # ... (sisanya sama seperti sebelumnya)
+
     # Simpan file
     filename = f"{directory}/{brand['slug']}.md"
     with open(filename, "w", encoding="utf-8") as f:
