@@ -1,0 +1,25 @@
+name: Sync Brand Data
+on:
+  schedule:
+    - cron: '0 0 * * *' # Jalan tiap tengah malam
+  workflow_dispatch: # Bisa dijalankan manual klik tombol
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Run Sync Script
+        run: python sync_brands.py
+      - name: Commit & Push changes
+        run: |
+          git config --global user.name 'Agus Romadi'
+          git config --global user.email 'agus@agusromadi.com'
+          git add .
+          git commit -m "Auto-update brand index" || exit 0
+          git push
+
