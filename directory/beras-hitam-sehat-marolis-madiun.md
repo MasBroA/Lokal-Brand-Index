@@ -1,16 +1,29 @@
 ---
-title: "Beras Hitam Sehat Marolis Madiun"
-brand_slug: "beras-hitam-sehat-marolis-madiun"
-category: "Sembako"
-geo_location:
-  type: "Point"
-  coordinates: [111.40971005, -7.6128306]
-address: "Madiun, Jawa Timur"
-source: "https://www.dgeomart.com/cbm/product/beras_hitam_marolis"
+title: "Beras Hitam Sehat Marolis Madiun - Madiun, Jawa Timur"
 ---
 
-# Beras Hitam Sehat Marolis Madiun - Madiun, Jawa Timur
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Beras Hitam Sehat Marolis Madiun",
+  "description": "Kain tenun tradisional berkualitas tinggi langsung dari pengrajin.",
+  "url": "https://dgeomart.comberas-hitam-sehat-marolis-madiun",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Madiun, Jawa Timur",
+    "addressCountry": "ID"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -7.6128306,
+    "longitude": 111.40971005
+  }
+}
+</script>
 
+
+# Beras Hitam Sehat Marolis Madiun - Madiun, Jawa Timur
 Kain tenun tradisional berkualitas tinggi langsung dari pengrajin.
 
-Temukan produk original **Beras Hitam Sehat Marolis Madiun** melalui platform [DGeomart](https://dgeomart.comberas-hitam-sehat-marolis-madiun).
+[Cek Produk di DGeomart](https://www.dgeomart.com/cbm/product/beras_hitam_marolis)
