@@ -22,5 +22,5 @@ jobs:
           git pull --rebase origin main  # <--- TAMBAHKAN BARIS INI
           git add .
           git commit -m "Auto-update brand index" || exit 0
-          git push
+          git push origin main
 
