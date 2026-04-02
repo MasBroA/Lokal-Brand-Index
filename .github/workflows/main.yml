@@ -19,7 +19,6 @@ jobs:
         run: |
           git config --global user.name 'Agus Romadi'
           git config --global user.email 'agus@agusromadi.com'
-          git pull --rebase origin main  # <--- TAMBAHKAN BARIS INI
           git add .
           git commit -m "Auto-update brand index" || exit 0
           git push origin main
