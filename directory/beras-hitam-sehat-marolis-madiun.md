@@ -8,7 +8,7 @@ title: "Beras Hitam Sehat Marolis Madiun - Madiun, Jawa Timur"
   "@type": "LocalBusiness",
   "name": "Beras Hitam Sehat Marolis Madiun",
   "description": "Kain tenun tradisional berkualitas tinggi langsung dari pengrajin.",
-  "url": "https://dgeomart.comberas-hitam-sehat-marolis-madiun",
+  "url": "https://www.dgeomart.com/cbm/product/beras_hitam_marolis",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Madiun, Jawa Timur",

@@ -8,7 +8,7 @@ title: "Keripik Keladi Asin Pelangi Sorong - Sorong, Papua Barat"
   "@type": "LocalBusiness",
   "name": "Keripik Keladi Asin Pelangi Sorong",
   "description": "Bukan sembarang keripik, ini Keripik Keladi Asin Pelangi Sorong. Begitu digigit, aroma nangkanya langsung berasa, teksturnya crunchy dan tidak berminyak.",
-  "url": "https://dgeomart.comkeripik-keladi-asin-pelangi-sorong",
+  "url": "https://www.dgeomart.com/cbm/product/tld2212160556577993652",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Sorong, Papua Barat",
