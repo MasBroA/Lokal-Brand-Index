@@ -20,7 +20,7 @@ brands_data = [
         "lat": -7.6128306,
         "long": 111.40971005,
         "city": "Madiun, Jawa Timur",
-        "desc": "Kain tenun tradisional berkualitas tinggi langsung dari pengrajin.",
+        "desc": "Beras organik yang sehat menyehatkan produksi petani di Madiun dengan pupuk organik marolis",
         "url": "https://www.dgeomart.com/cbm/product/beras_hitam_marolis"
     }
 ]
