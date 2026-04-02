@@ -39,7 +39,7 @@ def create_markdown(brand):
   "@type": "LocalBusiness",
   "name": "{brand['name']}",
   "description": "{brand['desc']}",
-  "url": "https://dgeomart.com{brand['slug']}",
+  "url": "{brand['url']}",
   "address": {{
     "@type": "PostalAddress",
     "addressLocality": "{brand['city']}",
@@ -88,7 +88,7 @@ def generate_sitemap():
                  # MENGHAPUS ekstensi .md dari URL
                 clean_name = file.replace(".md", "")
 
-                f.write(f'  <url>\n    <loc>{base_url}{file}</loc>\n  </url>\n')
+                f.write(f'  <url>\n    <loc>{base_url}{clean_name}</loc>\n  </url>\n')
         f.write('</urlset>')
     print("✅ Sitemap.xml updated")
 
