@@ -90,8 +90,12 @@ last_updated: "{product.get('updated_time')}"
 """
 
     # Gunakan slug dari API untuk nama file
+    wilayah_name = wilayah.replace(",", "_")
+    wilayah_name = wilayah_name.replace(" ", "_")
+    wilayah_name = wilayah_name.replace("'", "")
+    
     slug = product.get('slug') or f"product-{product.get('product_id')}"
-    filename = f"{directory}/{slug}.md"
+    filename = f"{directory}/{slug}-{wilayah_name}.md"
     
     with open(filename, "w", encoding="utf-8") as f:
         f.write(content)
