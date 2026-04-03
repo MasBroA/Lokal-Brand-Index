@@ -1,80 +1,101 @@
 import os
 import json
+import requests
 
-# Data ini nantinya bisa diganti dengan request.get('https://dgeomart.com')
-brands_data = [
-    {
-        "name": "Keripik Keladi Asin Pelangi Sorong",
-        "slug": "keripik-keladi-asin-pelangi-sorong",
-        "category": "Makanan Cemilan",
-        "lat": -0.8594052,
-        "long": 131.2494258,
-        "city": "Sorong, Papua Barat",
-        "desc": "Bukan sembarang keripik, ini Keripik Keladi Asin Pelangi Sorong. Begitu digigit, aroma nangkanya langsung berasa, teksturnya crunchy dan tidak berminyak.",
-        "url": "https://www.dgeomart.com/cbm/product/tld2212160556577993652"
-    },
-    {
-        "name": "Beras Hitam Sehat Marolis Madiun",
-        "slug": "beras-hitam-sehat-marolis-madiun",
-        "category": "Sembako",
-        "lat": -7.6128306,
-        "long": 111.40971005,
-        "city": "Madiun, Jawa Timur",
-        "desc": "Beras organik yang sehat menyehatkan produksi petani di Madiun dengan pupuk organik marolis",
-        "url": "https://www.dgeomart.com/cbm/product/beras_hitam_marolis"
-    }
-]
+def fetch_brands_from_api():
+    api_url = "https://produk.dgeomart.com/api/publik/product/list"
+    try:
+        response = requests.get(api_url, timeout=15)
+        response.raise_for_status()
+        return response.json()
+    except Exception as e:
+        print(f"❌ Gagal ambil data API: {e}")
+        return []
 
-
-def create_markdown(brand):
+def create_markdown(product):
     directory = "directory"
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-    # Skema JSON-LD untuk AI
+    # Proteksi jika data null
+    nama = product.get('nama') or "Produk Tanpa Nama"
+    deskripsi = product.get('deskripsi') or product.get('short_desc') or "Deskripsi tidak tersedia."
+    catatan = product.get('note') or ""
+    wilayah = product.get('wilayah_nama') or "Indonesia"
+    url_link = product.get('url_profile') or "https://www.dgeomart.com"
+    contact_nama = product.get('contact_nama') or ""
+    contact_telp = product.get('contact_telp') or ""
+    contact_email = product.get('contact_email') or ""
+    
+    # Konversi koordinat ke float (API memberikan string)
+    try:
+        lat = float(product.get('latitude', 0))
+        long = float(product.get('longitude', 0))
+    except (ValueError, TypeError):
+        lat, long = 0.0, 0.0
+
+    # Skema JSON-LD (Sangat penting untuk GEO Optimizer)
     json_ld = f"""
 <script type="application/ld+json">
 {{
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "{brand['name']}",
-  "description": "{brand['desc']}",
-  "url": "{brand['url']}",
+  "name": "{nama}",
+  "kontak": "{contact_nama} - {contact_telp} - {contact_email}",
+  "description": "{deskripsi} {catatan}",
+  "url": "{url_link}",
+  "image": "{product.get('url_foto_profile')}",
   "address": {{
     "@type": "PostalAddress",
-    "addressLocality": "{brand['city']}",
+    "streetAddress": "{product.get('alamat')}",
+    "addressLocality": "{wilayah}",
     "addressCountry": "ID"
   }},
   "geo": {{
     "@type": "GeoCoordinates",
-    "latitude": {brand['lat']},
-    "longitude": {brand['long']}
+    "latitude": {lat},
+    "longitude": {long}
   }}
 }}
 </script>
 """
 
     content = f"""---
-title: "{brand['name']} - {brand['city']}"
+title: "{nama} - {wilayah}"
+last_updated: "{product.get('updated_time')}"
 ---
 {json_ld}
 
-# {brand['name']} - {brand['city']}
-{brand['desc']}
+# {nama}
 
-[Cek Produk di DGeomart]({brand['url']})
+**Lokasi:** {wilayah}  
+**Alamat:** {product.get('alamat')}
+
+### Deskripsi
+{deskripsi}
+
+{catatan}
+
+
+---
+### Informasi Tambahan
+* **Kontak:** {product.get('contact_nama')} - {product.get('contact_telp')} - {product.get('contact_email')} 
+* **Terakhir Update:** {product.get('updated_time')}
+
+[Informasi selengkapnya di ] ({url_link})
+
+[Dapatkan informasi lainnya di] DGeomart - https://www.dgeomart.com 
+
+![QR Code]({product.get('qr_link')})
 """
-    # ... (sisanya sama seperti sebelumnya)
 
-    # Simpan file
-    filename = f"{directory}/{brand['slug']}.md"
+    # Gunakan slug dari API untuk nama file
+    slug = product.get('slug') or f"product-{product.get('product_id')}"
+    filename = f"{directory}/{slug}.md"
+    
     with open(filename, "w", encoding="utf-8") as f:
         f.write(content)
-    print(f"✅ Created: {filename}")
-
-# Jalankan proses
-for brand in brands_data:
-    create_markdown(brand)
+    print(f"✅ Berhasil membuat: {filename}")
 
 def generate_sitemap():
     base_url = "https://masbroa.github.io/Lokal-Brand-Index/directory/"
@@ -92,6 +113,14 @@ def generate_sitemap():
         f.write('</urlset>')
     print("✅ Sitemap.xml updated")
 
-# Panggil fungsi ini setelah loop brand selesai
-generate_sitemap()
+# --- EKSEKUSI UTAMA ---
+print("🚀 Memulai sinkronisasi data dari API DGeomart...")
+products = fetch_brands_from_api()
 
+if products:
+    for item in products:
+        create_markdown(item)
+    generate_sitemap()
+    print(f"🎉 Selesai! Total {len(products)} produk diproses.")
+else:
+    print("⚠️ Tidak ada data yang diterima dari API.")
