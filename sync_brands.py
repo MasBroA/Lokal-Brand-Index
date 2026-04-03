@@ -164,13 +164,13 @@ def update_index_html(products):
 <head>
     <!-- Meta Dasar -->
     <meta name="description" content="Indeks Brand Lokal Indonesia untuk optimasi GEO dan penemuan produk UMKM.">
-    <link rel="canonical" href="https://github.io">
+    <link rel="canonical" href="https://masbroa.github.io/Lokal-Brand-Index/">
 
     <!-- Open Graph (Sosial Media) -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Lokal Brand Index - DGeomart">
     <meta property="og:description" content="Kumpulan direktori brand lokal dari berbagai wilayah di Indonesia.">
-    <meta property="og:url" content="https://github.io">
+    <meta property="og:url" content="https://masbroa.github.io/Lokal-Brand-Index/">
 
     <!-- Favicon -->
     <link rel="icon" href="https://www.dgeomart.com/ecom/images/logo/logo2.png" type="image/x-icon">
@@ -185,8 +185,8 @@ def update_index_html(products):
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "DGeomart",
-      "url": "https://dgeomart.com",
-      "logo": "https://dgeomart.com/favicon.ico"
+      "url": "https://www.dgeomart.com",
+      "logo": "https://www.dgeomart.com/ecom/images/logo/logo2.png"
     }}
     </script>
 
