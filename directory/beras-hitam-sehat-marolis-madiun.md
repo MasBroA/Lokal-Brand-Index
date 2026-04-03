@@ -7,7 +7,7 @@ title: "Beras Hitam Sehat Marolis Madiun - Madiun, Jawa Timur"
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Beras Hitam Sehat Marolis Madiun",
-  "description": "Kain tenun tradisional berkualitas tinggi langsung dari pengrajin.",
+  "description": "Beras organik yang sehat menyehatkan produksi petani di Madiun dengan pupuk organik marolis",
   "url": "https://www.dgeomart.com/cbm/product/beras_hitam_marolis",
   "address": {
     "@type": "PostalAddress",
@@ -24,6 +24,6 @@ title: "Beras Hitam Sehat Marolis Madiun - Madiun, Jawa Timur"
 
 
 # Beras Hitam Sehat Marolis Madiun - Madiun, Jawa Timur
-Kain tenun tradisional berkualitas tinggi langsung dari pengrajin.
+Beras organik yang sehat menyehatkan produksi petani di Madiun dengan pupuk organik marolis
 
 [Cek Produk di DGeomart](https://www.dgeomart.com/cbm/product/beras_hitam_marolis)
