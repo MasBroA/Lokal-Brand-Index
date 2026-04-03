@@ -160,22 +160,39 @@ def update_index_html(products):
     }, indent=2)
 
     html_content = f"""<!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="mkts7AhE-ySL6g37ibn9s4Am0HWwEzPyo8cZ2UA_Rdc" />
     <title>Lokal Brand Index - DGeomart GEO Optimizer</title>
+    
+    <!-- SKEMA ORGANISASI (Naikkan Skor Organization) -->
     <script type="application/ld+json">
-    {json_ld_list}
+    {{
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DGeomart",
+      "url": "https://dgeomart.com",
+      "logo": "https://dgeomart.com/favicon.ico"
+    }}
+    </script>
+
+    <!-- SKEMA DAFTAR ITEM (Naikkan Skor Discovery) -->
+    <script type="application/ld+json">
+    {{
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": {json.dumps(items_json)}
+    }}
     </script>
 </head>
 <body>
     <h1>Indeks Lokasi Brand Lokal (GEO)</h1>
-    <p>Direktori terstruktur untuk optimasi mesin pencari AI.</p>
-    <ul>
-        {list_html}
-    </ul>
+    <ul>{list_html}</ul>
 </body>
 </html>"""
+
 
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
