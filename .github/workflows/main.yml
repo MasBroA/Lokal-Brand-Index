@@ -22,8 +22,8 @@ jobs:
           git config --global user.name 'Agus Romadi'
           git config --global user.email 'agus@agusromadi.com'
           git config pull.rebase true
-          git pull
           git add .
           git commit -m "Auto-update brand index" || exit 0
+          git pull origin main
           git push origin main
 
