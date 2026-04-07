@@ -105,7 +105,7 @@ last_updated: "{product.get('updated_time')}"
     # 2. Buat folder otomatis jika belum ada
     os.makedirs(folder_path, exist_ok=True)
 
-    filename = f"{folder_path}/index.md"
+    filename = f"{folder_path}/index.html"
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(content)
