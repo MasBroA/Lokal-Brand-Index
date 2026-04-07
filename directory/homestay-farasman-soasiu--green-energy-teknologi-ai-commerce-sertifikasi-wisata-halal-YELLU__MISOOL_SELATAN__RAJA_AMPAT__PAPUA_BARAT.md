@@ -37,6 +37,7 @@ Untuk informasi produk/jasa lain silakan klik <a href="https://masbroa.github.io
 
 
 # Homestay Farasman Soasiu telah sertifikasi wisata halal dan mendukung Green Energy dan teknologi AI dalam commerce
+Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk
 
 **Lokasi:** YELLU, MISOOL SELATAN, RAJA AMPAT, PAPUA BARAT  
 **Alamat:** kampung yellu misool selatan Yellu, Misool Selatan, Raja Ampat, Papua Barat

@@ -37,6 +37,7 @@ Untuk informasi produk lain silakan klik <a href="https://masbroa.github.io/Loka
 
 
 # Beras Hitam Sehat Marolis telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce
+Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk
 
 **Lokasi:** JIWAN, JIWAN, MADIUN, JAWA TIMUR  
 **Alamat:** Jln. Branjangan RT 21 RW 08, Jiwan, Madiun Jiwan, Jiwan, Madiun, Jawa Timur

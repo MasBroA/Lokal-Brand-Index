@@ -1,87 +1,15 @@
-# ==========================================
-# robots.txt (Robust safe default, 2026)
-# Notes:
-# - robots.txt is crawl guidance, not security.
-# - Put this at: https://www.example.com/robots.txt (root of the host).
-# ==========================================
-
-# 1) Default policy: allow public site, block clearly private areas
 User-agent: *
 Allow: /
-
-# Block obvious sensitive/back-office areas (edit to match your site)
-Disallow: /admin/
-Disallow: /internal/
 Disallow: /private/
-Disallow: /account/
-Disallow: /login/
-Disallow: /logout/
-Disallow: /signup/
-Disallow: /billing/
-Disallow: /checkout/
-Disallow: /cart/
-Disallow: /orders/
-Disallow: /settings/
-Disallow: /profile/
 
-# Block API routes that are not meant for indexing (edit)
-Disallow: /api/
-Disallow: /graphql
-
-# Avoid infinite spaces / duplicate URLs via query params (keep conservative)
-# Google supports pattern matching for robots rules.
-
-# If you have a public docs area or public API docs, keep them crawlable
-Allow: /docs/
-Allow: /docs/*
-Allow: /help/
-Allow: /help/*
-
-# Optional: allow well-known discovery files if you publish them
-Allow: /.well-known/
-Allow: /.well-known/*
-
-# 2) Major search crawlers (explicit, but they will also follow the * group)
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-# 3) AI crawlers (optional but common)
-# OpenAI robots.txt tokens include GPTBot and OAI-SearchBot.
+# Optimasi untuk AI Crawlers
 User-agent: GPTBot
-Allow: /
-
-User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-# Google-Extended is a robots.txt control token (not a separate HTTP UA string).
-User-agent: Google-Extended
+User-agent: CCBot
 Allow: /
 
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-# 4) Crawl-delay (optional)
-# Google ignores crawl-delay, some other bots may respect it.
-# Crawl-delay: 1
-
-# 5) Sitemaps (use your canonical host)
 Sitemap: https://masbroa.github.io/Lokal-Brand-Index/sitemap.xml
-
-# If you have additional sitemaps, list them too:
-# Sitemap: https://www.example.com/sitemap-products.xml
-# Sitemap: https://www.example.com/sitemap-pages.xml

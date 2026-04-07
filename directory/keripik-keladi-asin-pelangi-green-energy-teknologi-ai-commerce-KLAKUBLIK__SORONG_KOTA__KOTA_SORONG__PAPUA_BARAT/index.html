@@ -36,6 +36,7 @@ https://www.dgeomart.com/cbm/product/tld2212160556577993652",
 
 
 # Keripik Keladi Asin 'Pelangi' telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce
+Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk
 
 **Lokasi:** KLAKUBLIK, SORONG KOTA, KOTA SORONG, PAPUA BARAT  
 **Alamat:** Jl. Rejau Klademak I Rt/RW 001/002 Klakublik, Sorong Kota, Kota Sorong, Papua Barat
