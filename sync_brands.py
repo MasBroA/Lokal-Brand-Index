@@ -100,7 +100,12 @@ last_updated: "{product.get('updated_time')}"
     with open(filename, "w", encoding="utf-8") as f:
         f.write(content)
 
-    filename = f"{directory}/{slug}-{wilayah_name}/index.md"
+    folder_path = f"{directory}/{slug}-{wilayah_name}"
+
+    # 2. Buat folder otomatis jika belum ada
+    os.makedirs(folder_path, exist_ok=True)
+
+    filename = f"{folder_path}/index.html"
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(content)
