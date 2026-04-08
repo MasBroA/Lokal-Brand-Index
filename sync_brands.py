@@ -344,7 +344,6 @@ def update_index_html(products):
     </style>
     """
     html_content = f"""<!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <!-- Meta Dasar -->
