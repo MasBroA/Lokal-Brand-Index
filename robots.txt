@@ -12,4 +12,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://masbroa.github.io/Lokal-Brand-Index/sitemap.xml
+Sitemap: https://green.dgeo.id/sitemap.xml

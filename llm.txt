@@ -6,16 +6,16 @@
 This repository serves as a centralized directory for verified local brands and products on the DGeomart platform. Each entry includes location metadata (Latitude/Longitude), product descriptions, and direct links to digital storefronts.
 
 ## Main URLs
-- Main Website: https://www.dgeomart.com
-- GEO Index: https://masbroa.github.io/Lokal-Brand-Index
-- Sitemap XML: https://masbroa.github.io/Lokal-Brand-Index/sitemap.xml
+- Main Website: https://green.dgeo.id
+- GEO Index: https://green.dgeo.id
+- Sitemap XML: https://green.dgeo.id/sitemap.xml
 
 ## Brand Catalog (Directory)
 Here is a list of brand entries available for processing by LLMs:
-- https://masbroa.github.io/Lokal-Brand-Index/directory/keripik-keladi-asin-pelangi-KLAKUBLIK__SORONG_KOTA__KOTA_SORONG__PAPUA_BARAT
-- https://masbroa.github.io/Lokal-Brand-Index/directory/nut-tonton-homestay-LIMALAS_BARAT__MISOOL_TIMUR__RAJA_AMPAT__PAPUA_BARAT
-- https://masbroa.github.io/Lokal-Brand-Index/directory/homestay-farasman-soasiu-YELLU__MISOOL_SELATAN__RAJA_AMPAT__PAPUA_BARAT
-- https://masbroa.github.io/Lokal-Brand-Index/directory/beras-hitam-sehat-marolis-JIWAN__JIWAN__MADIUN__JAWA_TIMUR
+- https://green.dgeo.id/directory/keripik-keladi-asin-pelangi-KLAKUBLIK__SORONG_KOTA__KOTA_SORONG__PAPUA_BARAT
+- https://green.dgeo.id/directory/nut-tonton-homestay-LIMALAS_BARAT__MISOOL_TIMUR__RAJA_AMPAT__PAPUA_BARAT
+- https://green.dgeo.id/directory/homestay-farasman-soasiu-YELLU__MISOOL_SELATAN__RAJA_AMPAT__PAPUA_BARAT
+- https://green.dgeo.id/directory/beras-hitam-sehat-marolis-JIWAN__JIWAN__MADIUN__JAWA_TIMUR
 
 ## Data Standards
 Data is presented in Markdown format with YAML Frontmatter and JSON-LD (Schema.org) to ensure accurate interpretation of location data by large language models (LLMs).
