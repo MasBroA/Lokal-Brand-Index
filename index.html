@@ -24,8 +24,48 @@
 
     <!-- JSON-LD Schema: Dioptimalkan untuk Rich Snippets (Bintang Kuning) -->
     <script type="application/ld+json">
-    [{'@context': 'https://schema.org', '@type': 'Organization', '@id': 'https://green.dgeo.id', 'name': 'DGeomart', 'url': 'https://green.dgeo.id', 'logo': 'https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png', 'sameAs': ['https://instagram.com', 'https://wa.me']}, {'@context': 'https://schema.org', '@type': 'Product', 'name': 'Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified', 'image': 'https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png', 'description': 'Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk', 'brand': {'@type': 'Brand', 'name': 'DGeomart'}, 'knowsAbout': ['Halal Certification', 'Green Energy', 'Artificial Intelligence', 'Indonesian SMEs'], 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.9', 'bestRating': '5', 'worstRating': '1', 'ratingCount': '1250'}}]
+    {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://green.dgeo.id",
+      "name": "DGeomart",
+      "url": "https://green.dgeo.id",
+      "logo": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
+      "sameAs": [
+        "https://instagram.com",
+        "https://wa.me"
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
+      "image": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
+      "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth...",
+      "brand": {
+        "@type": "Brand",
+        "name": "DGeomart"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1250"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://masbroa.github.io/Lokal-Brand-Index/",
+        "priceCurrency": "IDR",
+        "price": "0",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
+}
     </script>
+
     <!-- 2. SCHEMA FAQ (Memudahkan AI Menjawab Pertanyaan User) -->
     <script type="application/ld+json">
         {
@@ -46,11 +86,36 @@
 
     <!-- SKEMA DAFTAR ITEM (Naikkan Skor Discovery) -->
     <script type="application/ld+json">
+        {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://produk.dgeomart.com/publik/product/slug/keripik-keladi-asin-pelangi-green-energy-teknologi-ai-commerce", "name": "Keripik Keladi Asin 'Pelangi' telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce"}, {"@type": "ListItem", "position": 2, "url": "https://produk.dgeomart.com/publik/product/slug/beras-hitam-sehat-marolis-green-energy-teknologi-ai-commerce-sertifikasi-halal", "name": "Beras Hitam Sehat Marolis telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce"}, {"@type": "ListItem", "position": 3, "url": "https://produk.dgeomart.com/publik/product/slug/homestay-farasman-soasiu--green-energy-teknologi-ai-commerce-sertifikasi-wisata-halal", "name": "Homestay Farasman Soasiu telah sertifikasi wisata halal dan mendukung Green Energy dan teknologi AI dalam commerce"}, {"@type": "ListItem", "position": 4, "url": "https://produk.dgeomart.com/publik/product/slug/nut-tonton-homestay-green-energy-teknologi-ai-commerce-sertifikasi-wisata-halal", "name": "Nut Tonton Homestay telah sertifikasi wisata halal dan mendukung Green Energy dan teknologi AI dalam commerce"}]
+      "@type": "ListItem",
+      "position": 1,
+      "url": "https://produk.dgeomart.com/publik/product/slug/keripik-keladi-asin-pelangi-green-energy-teknologi-ai-commerce",
+      "name": "Keripik Keladi Asin 'Pelangi' telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "url": "https://produk.dgeomart.com/publik/product/slug/beras-hitam-sehat-marolis-green-energy-teknologi-ai-commerce-sertifikasi-halal",
+      "name": "Beras Hitam Sehat Marolis telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "url": "https://produk.dgeomart.com/publik/product/slug/homestay-farasman-soasiu--green-energy-teknologi-ai-commerce-sertifikasi-wisata-halal",
+      "name": "Homestay Farasman Soasiu telah sertifikasi wisata halal dan mendukung Green Energy dan teknologi AI dalam commerce"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "url": "https://produk.dgeomart.com/publik/product/slug/nut-tonton-homestay-green-energy-teknologi-ai-commerce-sertifikasi-wisata-halal",
+      "name": "Nut Tonton Homestay telah sertifikasi wisata halal dan mendukung Green Energy dan teknologi AI dalam commerce"
     }
+  ]
+}
     </script>
 	<link href="/css/green-general.css" rel="stylesheet" />
 

@@ -182,6 +182,52 @@ def update_index_html(products):
         "itemListElement": items_json
     }, indent=2)
 
+    item_list_schema = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": items_json
+    }
+    org_product_schema = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://green.dgeo.id",
+                "name": "DGeomart",
+                "url": "https://green.dgeo.id",
+                "logo": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
+                "sameAs": [
+                    "https://instagram.com",
+                    "https://wa.me"
+                ]
+            },
+            {
+                "@type": "Product",
+                "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
+                "image": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
+                "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth...",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "DGeomart"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "bestRating": "5",
+                    "worstRating": "1",
+                    "ratingCount": "1250"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "url": "https://masbroa.github.io/Lokal-Brand-Index/",
+                    "priceCurrency": "IDR",
+                    "price": "0",
+                    "availability": "https://schema.org/InStock"
+                }                
+            }
+        ]
+    }
+
     faq_schema = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -223,39 +269,9 @@ def update_index_html(products):
 
     <!-- JSON-LD Schema: Dioptimalkan untuk Rich Snippets (Bintang Kuning) -->
     <script type="application/ld+json">
-    {
-        [
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "@id": "https://green.dgeo.id",
-            "name": "DGeomart",
-            "url": "https://green.dgeo.id",
-            "logo": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
-            "sameAs": [
-            "https://instagram.com",
-            "https://wa.me"
-            ]
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
-            "image": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
-            "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk",
-            "brand": { "@type": "Brand", "name": "DGeomart" },
-            "knowsAbout": ["Halal Certification", "Green Energy", "Artificial Intelligence", "Indonesian SMEs"],
-                "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "1250"
-            }
-        }
-        ]
-    }
+    {json.dumps(org_product_schema, indent=2)}
     </script>
+
     <!-- 2. SCHEMA FAQ (Memudahkan AI Menjawab Pertanyaan User) -->
     <script type="application/ld+json">
         {json.dumps(faq_schema, indent=2)}
@@ -263,11 +279,7 @@ def update_index_html(products):
 
     <!-- SKEMA DAFTAR ITEM (Naikkan Skor Discovery) -->
     <script type="application/ld+json">
-    {{
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "itemListElement": {json.dumps(items_json)}
-    }}
+        {json.dumps(item_list_schema, indent=2)}
     </script>
 	<link href="/css/green-general.css" rel="stylesheet" />
 
