@@ -373,7 +373,7 @@ def update_index_html(products):
                 "@id": "https://green.dgeo.id",
                 "name": "DGeomart",
                 "url": "https://green.dgeo.id",
-                "logo": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
+                "logo": "https://green.dgeo.id/images/logo-dgeo-id.png",
                 "sameAs": [
                     "https://instagram.com",
                     "https://wa.me"
@@ -382,7 +382,7 @@ def update_index_html(products):
             {
                 "@type": "Product",
                 "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
-                "image": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
+                "image": "https://green.dgeo.id/images/logo-dgeo-id.png",
                 "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth...",
                 "brand": {
                     "@type": "Brand",
@@ -397,7 +397,7 @@ def update_index_html(products):
                 },
                 "offers": {
                     "@type": "Offer",
-                    "url": "https://masbroa.github.io/Lokal-Brand-Index/",
+                    "url": "https://green.dgeo.id/",
                     "priceCurrency": "IDR",
                     "price": "0",
                     "availability": "https://schema.org/InStock"
@@ -430,10 +430,10 @@ def update_index_html(products):
     <meta property="og:type" content="website">
     <meta property="og:title" content="Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified">
     <meta property="og:description" content="Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk">
-    <meta property="og:url" content="https://masbroa.github.io/Lokal-Brand-Index/">
+    <meta property="og:url" content="https://green.dgeo.id/">
 
     <!-- Favicon -->
-    <link rel="icon" href="https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png" type="image/x-icon">
+    <link rel="icon" href="https://green.dgeo.id/images/logo-dgeo-id.png" type="image/x-icon">
 
     <meta name="google-site-verification" content="mkts7AhE-ySL6g37ibn9s4Am0HWwEzPyo8cZ2UA_Rdc" />
 
@@ -443,7 +443,7 @@ def update_index_html(products):
     <title>Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified</title>
     <meta name="description" content="Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk">
     <meta name="keywords" content="Brand Lokal, Sertifikasi Halal, Green Energy Indonesia, Energi Hijau, Teknologi AI, AI Verified, Produk Ramah Lingkungan, Wisata Halal">
-    <link rel="canonical" href="https://masbroa.github.io/Lokal-Brand-Index/">
+    <link rel="canonical" href="https://green.dgeo.id/">
 
     <!-- JSON-LD Schema: Dioptimalkan untuk Rich Snippets (Bintang Kuning) -->
     <script type="application/ld+json">
@@ -465,7 +465,7 @@ def update_index_html(products):
 <body>
     <!-- Header & Hero -->
     <header class="hero">
-        <img src="https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png" alt="DGeomart Logo" class="logo">
+        <img src="https://green.dgeo.id/images/logo-dgeo-id.png" alt="DGeomart Logo" class="logo">
         <span class="slogan">Smart Indexing for Sustainable Local Growth, Green Energy, AI Verified and Halal Certified</span>
         <h1>Platform index lokal produk yang Green Energy Verified, Halal Certified dan AI Verified</h1>
         <p>Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk</p>
