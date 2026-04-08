@@ -1,13 +1,13 @@
 ---
-title: "Keripik Keladi Asin 'Pelangi' telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce - KLAKUBLIK, SORONG KOTA, KOTA SORONG, PAPUA BARAT"
-last_updated: "2026-04-07 14:02:04"
+title: "Keripik Keladi Asin Pelangi - KLAKUBLIK, SORONG KOTA, KOTA SORONG, PAPUA BARAT"
+last_updated: "2026-04-09 02:09:12"
 ---
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Keripik Keladi Asin 'Pelangi' telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce",
+  "name": "Keripik Keladi Asin Pelangi",
   "kontak": "Hj Asma Pase - 6282198499974 - asma.pase@dgeomart.com",
   "description": "Keripik Keladi Pelangi, salah produsen keripik keladi di Sorong, Raja Ampat, Papua Barat yang telah menerapkan green energy (energi bersih atau energi hijau) dalam proses produsen. 
 
@@ -16,8 +16,7 @@ Selain itu keripik keladi pelangi salah satu UMKM di sorong, Raja Ampat Papua ba
 Sehingga para konsumen, distributor, reseller dapat melakukan komunikasi dengan robot AI sebagai customer service Keripik Keladi Pelangi.
 
 
-Keripik keladi pelangi telah memperoleh sertifikasi halal dari MUI, untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi produk halal dari produk Keripik Keladi Asin 'Pelangi', silakan kunjungi web page :
-https://www.dgeomart.com/cbm/product/tld2212160556577993652",
+Keripik keladi pelangi telah memperoleh sertifikasi halal dari MUI, untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi produk halal dari produk Keripik Keladi Asin 'Pelangi'",
   "url": "https://produk.dgeomart.com/publik/product/slug/keripik-keladi-asin-pelangi-green-energy-teknologi-ai-commerce",
   "image": "https://produk.dgeomart.com/upload/profile/1775198998_kripik-keladi-pelangi.jpg",
   "address": {
@@ -35,7 +34,7 @@ https://www.dgeomart.com/cbm/product/tld2212160556577993652",
 </script>
 
 
-# Keripik Keladi Asin 'Pelangi' telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce
+# Keripik Keladi Asin Pelangi
 Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk
 
 **Lokasi:** KLAKUBLIK, SORONG KOTA, KOTA SORONG, PAPUA BARAT  
@@ -51,14 +50,13 @@ Sehingga para konsumen, distributor, reseller dapat melakukan komunikasi dengan 
 
 Keripik keladi pelangi telah memperoleh sertifikasi halal dari MUI,
 
-untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi produk halal dari produk Keripik Keladi Asin 'Pelangi', silakan kunjungi web page :
-https://www.dgeomart.com/cbm/product/tld2212160556577993652
+untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi produk halal dari produk Keripik Keladi Asin 'Pelangi'
 
 
 ---
 ### Informasi Tambahan
 * **Kontak:** Hj Asma Pase - 6282198499974 - asma.pase@dgeomart.com 
-* **Terakhir Update:** 2026-04-07 14:02:04
+* **Terakhir Update:** 2026-04-09 02:09:12
 
 [Informasi selengkapnya di ] (https://produk.dgeomart.com/publik/product/slug/keripik-keladi-asin-pelangi-green-energy-teknologi-ai-commerce)
 
