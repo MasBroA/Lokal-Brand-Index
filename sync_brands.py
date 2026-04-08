@@ -24,7 +24,7 @@ def create_markdown(product):
     deskripsi = product.get('deskripsi') or product.get('short_desc') or "Deskripsi tidak tersedia."
     catatan = product.get('note') or ""
     wilayah = product.get('wilayah_nama') or "Indonesia"
-    url_link = product.get('url_profile') or "https://www.dgeomart.com"
+    url_link = product.get('url_profile') or "https://green.dgeo.id"
     contact_nama = product.get('contact_nama') or ""
     contact_telp = product.get('contact_telp') or ""
     contact_email = product.get('contact_email') or ""
@@ -153,7 +153,7 @@ def update_index_html(products):
     for i, p in enumerate(products):
         wilayah = p['wilayah_nama'] or "Indonesia"
 
-        url_link = p['url_profile'] or "https://www.dgeomart.com"
+        url_link = p['url_profile'] or "https://green.dgeo.id"
         #url = f"{p['url_profile']}"
         slug = p['slug'] or f"product-{p['product_id']}"
 
@@ -355,7 +355,7 @@ def update_index_html(products):
     <meta property="og:url" content="https://masbroa.github.io/Lokal-Brand-Index/">
 
     <!-- Favicon -->
-    <link rel="icon" href="https://www.dgeomart.com/ecom/images/logo/logo2.png" type="image/x-icon">
+    <link rel="icon" href="https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png" type="image/x-icon">
 
     <meta name="google-site-verification" content="mkts7AhE-ySL6g37ibn9s4Am0HWwEzPyo8cZ2UA_Rdc" />
 
@@ -374,10 +374,10 @@ def update_index_html(products):
         {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "@id": "https://www.dgeomart.com",
+            "@id": "https://green.dgeo.id",
             "name": "DGeomart",
-            "url": "https://www.dgeomart.com",
-            "logo": "https://www.dgeomart.com/ecom/images/logo/logo2.png",
+            "url": "https://green.dgeo.id",
+            "logo": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
             "sameAs": [
             "https://instagram.com",
             "https://wa.me"
@@ -387,7 +387,7 @@ def update_index_html(products):
             "@context": "https://schema.org",
             "@type": "Product",
             "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
-            "image": "https://www.dgeomart.com/ecom/images/logo/logo2.png",
+            "image": "https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png",
             "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk",
             "brand": { "@type": "Brand", "name": "DGeomart" },
             "knowsAbout": ["Halal Certification", "Green Energy", "Artificial Intelligence", "Indonesian SMEs"],
@@ -421,7 +421,7 @@ def update_index_html(products):
 <body>
     <!-- Header & Hero -->
     <header class="hero">
-        <img src="https://www.dgeomart.com/ecom/images/logo/logo2.png" alt="DGeomart Logo" class="logo">
+        <img src="https://masbroa.github.io/Lokal-Brand-Index/images/logo-dgeo-id.png" alt="DGeomart Logo" class="logo">
         <span class="slogan">Smart Indexing for Sustainable Local Growth, Green Energy, AI Verified and Halal Certified</span>
         <h1>Platform index lokal produk yang Green Energy Verified, Halal Certified dan AI Verified</h1>
         <p>Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk</p>
