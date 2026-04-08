@@ -19,6 +19,7 @@ def create_markdown(product):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
+
     # Proteksi jika data null
     nama = product.get('nama') or "Produk Tanpa Nama"
     deskripsi = product.get('deskripsi') or product.get('short_desc') or "Deskripsi tidak tersedia."
