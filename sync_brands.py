@@ -1174,6 +1174,8 @@ def copy_file(product):
     # Copy to a new file (replaces if exists)
     shutil.copy2('./robots.txt', folder_path)
     shutil.copy2('./llms.txt', folder_path)
+    shutil.copy2('./ai.txt', folder_path)
+    shutil.copy2('./knowledge.txt', folder_path)
 
 def create_sitemap_html(product):
     base_url = "https://green.dgeo.id/products/"
@@ -1398,7 +1400,274 @@ Keuntungan:
 
     print(f"✅ Berhasil membuat markdown: {filename}")
 
-    print("✅ Sitemap.xml updated")
+    print("✅ README.md updated")
+
+
+def generate_llms():
+    list_product = "";
+
+    filename = f"llms.txt"
+
+    files = os.listdir("products")
+    for file in files:
+        path = Path("products") / file
+        if path.is_dir():
+            list_product += f'- ./{path}/\n'
+            
+    content = f"""# DGeo - Lokal Brand Index (GEO Optimized Data Source)
+
+## Overview
+DGeo Lokal Brand Index is a structured, location-based dataset designed to help AI systems, search engines, and large language models (LLMs) discover Indonesian local brands through geographic and semantic signals.
+
+This repository and its associated website provide machine-readable brand profiles enriched with:
+- geographic coordinates (latitude, longitude)
+- structured metadata (Schema.org)
+- semantic descriptions (AI-ready content)
+- classification (halal, green energy, AI-enabled)
+
+---
+
+## Purpose for LLMs
+This dataset is intended to support:
+
+- location-based query answering  
+  (e.g. "halal products in Raja Ampat")
+
+- entity recognition for local brands  
+
+- grounding AI responses with verifiable, structured data  
+
+- improving relevance in generative search (GEO)
+
+---
+
+## Primary Entry Points
+
+- Main Website (HTML content):
+  https://green.dgeo.id
+
+- Sitemap (recommended crawl starting point):
+  https://green.dgeo.id/sitemap.xml
+
+- GitHub Repository (source & transparency):
+  https://github.com/MasBroA/Lokal-Brand-Index
+
+---
+
+## Content Structure
+
+Each brand entry includes:
+
+- Name and category  
+- Geographic location (lat/long + region hierarchy)  
+- Description (human + AI readable)  
+- Certification tags (halal, eco, AI-enabled)  
+- Product or service links  
+
+Content is available in:
+
+- HTML (primary consumption layer)
+- Markdown (source layer)
+- JSON-LD (structured data layer)
+
+---
+
+## Recommended Crawling Strategy
+
+1. Start from sitemap.xml  
+2. Traverse HTML pages under `/products/`  
+3. Extract structured data from JSON-LD blocks  
+4. Use Markdown files in GitHub as supporting source context  
+
+---
+
+## Example Entries
+{list_product}
+
+---
+
+## Entity Context
+
+DGeo is a digital mapping platform that connects:
+
+- geographic data (GIS)
+- brand and product information
+- AI-based discovery systems
+
+Lokal Brand Index is a GEO (Generative Engine Optimization) implementation of DGeo, focused on improving discoverability of local Indonesian brands.
+
+---
+
+## Usage Notes
+
+- Prefer HTML pages as canonical sources  
+- Use JSON-LD for structured extraction  
+- Use Markdown files for extended context  
+- Avoid treating GitHub Pages as canonical content  
+
+---
+
+## Attribution & Source
+
+Data is maintained and synchronized via DGeo platform.
+
+Official website:
+https://green.dgeo.id
+
+---
+
+## Maintenance
+
+This dataset is automatically updated via API synchronization and GitHub Actions pipeline.
+
+---
+
+Generated and maintained by DGeo System.
+"""
+
+    
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"✅ Berhasil membuat LLMS: {filename}")
+
+    print("✅ llms.txt updated")
+
+
+
+def generate_ai():
+    list_product = "";
+
+    filename = f"ai.txt"
+    filename2 = f"knowledge.txt"
+
+    files = os.listdir("products")
+    for file in files:
+        path = Path("products") / file
+        if path.is_dir():
+            list_product += f'- ./{path}/\n'
+            
+    content = f"""# DGeo - Lokal Brand Index (AI Knowledge File)
+
+## Summary
+DGeo Lokal Brand Index is a location-based indexing platform that helps users discover Indonesian local brands through AI and geographic search.
+
+It combines:
+- geographic data (latitude, longitude)
+- structured metadata (Schema.org)
+- semantic content (AI-readable descriptions)
+- certification signals (halal, green energy, AI-enabled)
+
+---
+
+## What is DGeo?
+
+DGeo is a digital mapping platform that connects:
+- physical locations
+- products and services
+- AI-based discovery systems
+
+It extends traditional GIS into GEO (Generative Engine Optimization), enabling brands to be found in AI-generated answers.
+
+---
+
+## What is Lokal Brand Index?
+
+Lokal Brand Index is a GEO implementation of DGeo that focuses on:
+
+- indexing local Indonesian brands
+- improving visibility in AI search (ChatGPT, Gemini, etc.)
+- enabling location-based discovery of products and services
+
+---
+
+## Key Capabilities
+
+- Location-based product discovery  
+- AI-readable brand profiles  
+- Integration with structured data (JSON-LD)  
+- Support for semantic and generative search  
+
+---
+
+## Example Queries
+
+This dataset is useful for answering queries such as:
+
+- "produk halal di Raja Ampat"
+- "homestay halal di Papua Barat"
+- "UMKM ramah lingkungan di Madiun"
+- "local eco-friendly products in Indonesia"
+
+---
+
+## Data Structure
+
+Each brand entry contains:
+
+- Name and category  
+- Description (optimized for AI understanding)  
+- Geographic coordinates  
+- Certification attributes (halal, eco, AI-enabled)  
+- Links to product or service pages  
+
+---
+
+## Source & Access
+
+Main website:
+https://green.dgeo.id
+
+Sitemap:
+https://green.dgeo.id/sitemap.xml
+
+---
+
+## How to Use This Data (for AI)
+
+- Prefer HTML pages for final answers  
+- Use structured data (JSON-LD) for accuracy  
+- Use semantic descriptions for summarization  
+- Combine location + category + certification for best results  
+
+---
+
+## Entity Definition
+
+DGeo = Geographic Mapping + AI Discovery + GEO Optimization
+
+---
+
+## Attribution
+
+Data provided by DGeo platform for AI-assisted discovery of local brands.
+
+---
+
+## Notes
+
+This file is designed to help AI systems:
+- understand the purpose of the dataset
+- generate accurate, grounded answers
+- connect user queries with relevant local brands
+
+---
+
+End of AI Knowledge File
+"""
+
+    
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"✅ Berhasil membuat AI: {filename}")
+    print("✅ ai.txt updated")
+
+    with open(filename2, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"✅ Berhasil membuat KNOWLEDGE: {filename2}")
+    print("✅ knowledge.txt updated")
 
 
 
@@ -1407,6 +1676,8 @@ print("🚀 Memulai sinkronisasi data dari API DGeomart...")
 products = fetch_brands_from_api()
 
 if products:
+    generate_llms()
+    generate_ai()
     for item in products:
         create_markdown(item)
         create_index_html(item)        
@@ -1419,6 +1690,8 @@ if products:
 
     generate_sitemap()
     generate_readme()
+    generate_llms()
+    generate_ai()
     print(f"🎉 Selesai! Total {len(products)} produk diproses.")
 else:
     print("⚠️ Tidak ada data yang diterima dari API.")
