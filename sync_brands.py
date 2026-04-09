@@ -106,7 +106,6 @@ Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan sta
 
 [Dapatkan informasi lainnya di] DGeo Green - https://green.dgeo.id/{directory}/{slug}-{wilayah_name}/ 
 
-![QR Code]({product.get('qr_link')})
 """
 
     
@@ -484,7 +483,6 @@ def create_faq_html(product):
 
 <p>Dapatkan informasi lainnya di DGeo Green - https://green.dgeo.id</p> 
 
-<p>{product.get('qr_link')}</p>
         </section>
     </main>
     <footer>
@@ -683,7 +681,6 @@ def create_testimoni_html(product):
 
             <p>Dapatkan informasi lainnya di DGeo Green - https://green.dgeo.id</p> 
 
-            <p>{product.get('qr_link')}</p>
         </section>
     </main>
     <footer>
@@ -883,7 +880,6 @@ def create_artikel_html(product):
 
             <p>Dapatkan informasi lainnya di DGeo Green - https://green.dgeo.id</p> 
 
-            <p>{product.get('qr_link')}</p>
         </div>
     </main>
     <footer>
@@ -1080,7 +1076,6 @@ def create_galeri_html(product):
 
             <p>Dapatkan informasi lainnya di DGeo Green - https://green.dgeo.id</p> 
 
-            <p>{product.get('qr_link')}</p>
         </div>
     </main>
     <footer>
@@ -1306,7 +1301,7 @@ def update_index_html(products):
             "url": url_link,
             "name": p['nama']
         })
-        list_html += f'<li><a href="./directory/{slug}-{wilayah_name}/">{p["nama"]} - {p["wilayah_nama"]}</a><p>{p["deskripsi"]}</p></li>\n'
+        list_html += f'<li><a href="./products/{slug}-{wilayah_name}/">{p["nama"]} - {p["wilayah_nama"]}</a><p>{p["deskripsi"]}</p></li>\n'
 
     # Gabungkan ke Template
     json_ld_list = json.dumps({
