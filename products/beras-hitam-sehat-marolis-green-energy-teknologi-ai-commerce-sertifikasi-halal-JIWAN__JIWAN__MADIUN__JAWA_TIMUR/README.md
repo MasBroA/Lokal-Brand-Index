@@ -1,6 +1,6 @@
 ---
 title: "Beras Hitam Sehat Marolis telah sertifikasi halal dan mendukung Green Energy dan teknologi AI dalam commerce - JIWAN, JIWAN, MADIUN, JAWA TIMUR"
-last_updated: "2026-04-07 14:06:24"
+last_updated: "2026-04-09 09:57:08"
 ---
 
 <script type="application/ld+json">
@@ -15,8 +15,7 @@ Selain itu Beras Hitam Sehat Marolis  salah satu UMKM di Madiun Jawa Timur, yang
 
 Sehingga para konsumen, distributor, reseller dapat melakukan komunikasi dengan robot AI sebagai customer service Beras Hitam Sehat Marolis .
 
-Beras Hitam Sehat Marolis  telah memperoleh sertifikasi halal dari MUI Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi produk halal dari produk Beras Hitam Sehat Marolis , silakan kunjungi web page :
-https://www.dgeomart.com/cbm/product/beras_hitam_marolis
+Beras Hitam Sehat Marolis  telah memperoleh sertifikasi halal dari MUI Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi produk halal dari produk Beras Hitam Sehat Marolis 
 
 Untuk informasi produk lain silakan klik <a href="https://masbroa.github.io/Lokal-Brand-Index/index.html">kembali</a>",
   "url": "https://green.dgeo.id",
@@ -51,8 +50,7 @@ Sehingga para konsumen, distributor, reseller dapat melakukan komunikasi dengan 
 
 Beras Hitam Sehat Marolis  telah memperoleh sertifikasi halal dari MUI
 
-Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi produk halal dari produk Beras Hitam Sehat Marolis , silakan kunjungi web page :
-https://www.dgeomart.com/cbm/product/beras_hitam_marolis
+Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi produk halal dari produk Beras Hitam Sehat Marolis 
 
 Untuk informasi produk lain silakan klik <a href="https://masbroa.github.io/Lokal-Brand-Index/index.html">kembali</a>
 
@@ -60,7 +58,7 @@ Untuk informasi produk lain silakan klik <a href="https://masbroa.github.io/Loka
 ---
 ### Informasi Tambahan
 * **Kontak:** Koperasi Cahya Barakah Mandiri - 6285735249110 - koperasi.cahya@dgeomart.com 
-* **Terakhir Update:** 2026-04-07 14:06:24
+* **Terakhir Update:** 2026-04-09 09:57:08
 
 [Informasi selengkapnya di ] (https://green.dgeo.id)
 

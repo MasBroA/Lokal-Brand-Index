@@ -1,6 +1,6 @@
 ---
 title: "Homestay Farasman Soasiu telah sertifikasi wisata halal dan mendukung Green Energy dan teknologi AI dalam commerce - YELLU, MISOOL SELATAN, RAJA AMPAT, PAPUA BARAT"
-last_updated: "2026-04-07 14:12:28"
+last_updated: "2026-04-09 09:58:31"
 ---
 
 <script type="application/ld+json">
@@ -15,8 +15,7 @@ Selain itu Homestay Farasman Soasiu  salah satu UMKM di Sorong, Raja Ampat, Papu
 
 Sehingga para konsumen, distributor, reseller dapat melakukan komunikasi dengan robot AI sebagai customer service Homestay Farasman Soasiu.
 
-Homestay Farasman Soasiu telah memperoleh sertifikasi wisata halal dari MUI Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi wisata  halal dari  Homestay Farasman Soasiu  , silakan kunjungi web page :
-https://www.dgeomart.com/cbm/product/tld2111181226488881288
+Homestay Farasman Soasiu telah memperoleh sertifikasi wisata halal dari MUI Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi wisata  halal dari  Homestay Farasman Soasiu  
 
 Untuk informasi produk/jasa lain silakan klik <a href="https://masbroa.github.io/Lokal-Brand-Index/index.html">kembali</a>",
   "url": "https://green.dgeo.id",
@@ -51,8 +50,7 @@ Sehingga para konsumen, distributor, reseller dapat melakukan komunikasi dengan 
 
 Homestay Farasman Soasiu telah memperoleh sertifikasi wisata halal dari MUI
 
-Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi wisata  halal dari  Homestay Farasman Soasiu  , silakan kunjungi web page :
-https://www.dgeomart.com/cbm/product/tld2111181226488881288
+Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi wisata  halal dari  Homestay Farasman Soasiu  
 
 Untuk informasi produk/jasa lain silakan klik <a href="https://masbroa.github.io/Lokal-Brand-Index/index.html">kembali</a>
 
@@ -60,7 +58,7 @@ Untuk informasi produk/jasa lain silakan klik <a href="https://masbroa.github.io
 ---
 ### Informasi Tambahan
 * **Kontak:** Farasman Soasiu (Soasiu Homestay) - None - None 
-* **Terakhir Update:** 2026-04-07 14:12:28
+* **Terakhir Update:** 2026-04-09 09:58:31
 
 [Informasi selengkapnya di ] (https://green.dgeo.id)
 

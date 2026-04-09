@@ -1,6 +1,6 @@
 ---
 title: "Nut Tonton Homestay telah sertifikasi wisata halal dan mendukung Green Energy dan teknologi AI dalam commerce - LIMALAS BARAT, MISOOL TIMUR, RAJA AMPAT, PAPUA BARAT"
-last_updated: "2026-04-07 14:11:17"
+last_updated: "2026-04-09 09:58:50"
 ---
 
 <script type="application/ld+json">
@@ -15,8 +15,7 @@ Selain itu Nut Tonton Homestay salah satu UMKM di Sorong, Raja Ampat, Papua Bara
 
 Sehingga para konsumen, distributor, reseller dapat melakukan komunikasi dengan robot AI sebagai customer service Nut Tonton Homestay .
 
-Nut Tonton Homestay  telah memperoleh sertifikasi wisata halal dari MUI Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi wisata  halal dari  Nut Tonton Homestay   , silakan kunjungi web page :
-https://www.dgeomart.com/cbm/product/nut_tonton_homestay
+Nut Tonton Homestay  telah memperoleh sertifikasi wisata halal dari MUI Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi wisata  halal dari  Nut Tonton Homestay
 
 Untuk informasi produk/jasa lain silakan klik <a href="https://masbroa.github.io/Lokal-Brand-Index/index.html">kembali</a>",
   "url": "https://green.dgeo.id",
@@ -51,8 +50,7 @@ Sehingga para konsumen, distributor, reseller dapat melakukan komunikasi dengan 
 
 Nut Tonton Homestay  telah memperoleh sertifikasi wisata halal dari MUI
 
-Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi wisata  halal dari  Nut Tonton Homestay   , silakan kunjungi web page :
-https://www.dgeomart.com/cbm/product/nut_tonton_homestay
+Untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikasi wisata  halal dari  Nut Tonton Homestay
 
 Untuk informasi produk/jasa lain silakan klik <a href="https://masbroa.github.io/Lokal-Brand-Index/index.html">kembali</a>
 
@@ -60,7 +58,7 @@ Untuk informasi produk/jasa lain silakan klik <a href="https://masbroa.github.io
 ---
 ### Informasi Tambahan
 * **Kontak:** Bang Ahmad Thalib Macap, St - 6282199327798 - None 
-* **Terakhir Update:** 2026-04-07 14:11:17
+* **Terakhir Update:** 2026-04-09 09:58:50
 
 [Informasi selengkapnya di ] (https://green.dgeo.id)
 
