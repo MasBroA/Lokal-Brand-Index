@@ -252,8 +252,8 @@ def create_index_html(product):
 </center>
         <div class="rating-badge">
             <span class="stars">★★★★★</span> 
-            <strong>4.9/5</strong> 
-            <a href="https://green.dgeo.id/testimoni"><small style="margin-left: 10px; color: #666;">(1.250+ Ulasan Terverifikasi)</small></a>
+            <strong>5/5</strong> 
+            <a href="https://green.dgeo.id/testimoni"><small style="margin-left: 10px; color: #666;">(0+ Ulasan Terverifikasi)</small></a>
         </div>
         </div>
         <br>
@@ -1419,8 +1419,8 @@ def update_index_html(products):
 
         <div class="rating-badge">
             <span class="stars">★★★★★</span> 
-            <strong>4.9/5</strong> 
-            <a href="https://green.dgeo.id/testimoni"><small style="margin-left: 10px; color: #666;">(1.250+ Ulasan Terverifikasi)</small></a>
+            <strong>5/5</strong> 
+            <a href="https://green.dgeo.id/testimoni"><small style="margin-left: 10px; color: #666;">(0+ Ulasan Terverifikasi)</small></a>
         </div>
     </header>
 
