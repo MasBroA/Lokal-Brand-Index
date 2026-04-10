@@ -85,7 +85,27 @@ untuk informasi lebih lanjut terkait Teknologi Hijau/green energy dan sertifikas
 
 ---
 ## FAQ
-<p>Q:Apakah Keripik Keladi Pelangi aman dikonsumsi?<br>A:Tentu! Produk kami sudah memiliki sertifikasi Halal dari MUI dan diproses secara higienis, sehingga aman dan tenang untuk dikonsumsi siapa saja.</p><p>Q:Apa yang dimaksud dengan proses "Green Energy" pada produk ini?<br>A:Kami menggunakan energi bersih (ramah lingkungan) dalam proses produksi untuk mengurangi emisi karbon, jadi Anda tidak hanya ngemil enak, tapi juga ikut menjaga bumi.</p><p>Q:Bagaimana cara memesan jika saya berada di luar Sorong?<br>A:Sangat mudah! Kami sudah menggunakan teknologi AI Marketplace. Anda bisa memesan melalui e-commerce kami yang dilayani oleh asisten digital pintar selama 24 jam.</p><p>Q:Apakah ada peluang menjadi reseller atau distributor?<br>A:Ada! Kami membuka peluang kemitraan. Anda bisa langsung chat robot AI kami atau hubungi kontak Hj. Asma Pase untuk info skema harga khusus.</p><p>Q:Apa keunggulan keripik keladi ini dibanding yang lain?<br>A:Selain rasanya yang gurih khas talas Papua, produk kami adalah pionir UMKM di Sorong yang menggabungkan kearifan lokal dengan Teknologi AI dan Energi Hijau.</p>
+- Q:Apakah Keripik Keladi Pelangi aman dikonsumsi?
+  A:Tentu! Produk kami sudah memiliki sertifikasi Halal dari MUI dan diproses secara higienis, sehingga aman dan tenang untuk dikonsumsi siapa saja.
+
+---
+- Q:Apa yang dimaksud dengan proses "Green Energy" pada produk ini?
+  A:Kami menggunakan energi bersih (ramah lingkungan) dalam proses produksi untuk mengurangi emisi karbon, jadi Anda tidak hanya ngemil enak, tapi juga ikut menjaga bumi.
+
+---
+- Q:Bagaimana cara memesan jika saya berada di luar Sorong?
+  A:Sangat mudah! Kami sudah menggunakan teknologi AI Marketplace. Anda bisa memesan melalui e-commerce kami yang dilayani oleh asisten digital pintar selama 24 jam.
+
+---
+- Q:Apakah ada peluang menjadi reseller atau distributor?
+  A:Ada! Kami membuka peluang kemitraan. Anda bisa langsung chat robot AI kami atau hubungi kontak Hj. Asma Pase untuk info skema harga khusus.
+
+---
+- Q:Apa keunggulan keripik keladi ini dibanding yang lain?
+  A:Selain rasanya yang gurih khas talas Papua, produk kami adalah pionir UMKM di Sorong yang menggabungkan kearifan lokal dengan Teknologi AI dan Energi Hijau.
+
+---
+
 
 ---
 ## Artikel Terkait

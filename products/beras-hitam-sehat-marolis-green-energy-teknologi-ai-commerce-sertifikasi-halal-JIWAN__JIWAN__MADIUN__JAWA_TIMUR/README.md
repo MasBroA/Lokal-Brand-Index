@@ -87,7 +87,43 @@ Untuk informasi produk lain silakan klik <a href="https://masbroa.github.io/Loka
 
 ---
 ## FAQ
-<p>Q:Apa itu Beras Sehat Marolis?<br>A:Beras Sehat Marolis adalah produk beras organik unggulan yang dibudidayakan menggunakan teknologi enzim melalui Pupuk Organik Cair (POC) Marolis yang diproduksi oleh Koperasi Cahya Barakah Mandiri berlokasi di Jln. Branjangan RT 21 RW 08, Jiwan, Madiun, Jawa Timur. Beras ini dikelola secara profesional untuk menghasilkan pangan yang lebih berkualitas dan aman dikonsumsi.</p><p>Q:Apa keunggulan Beras Marolis dibandingkan beras biasa?<br>A:Beras Marolis jauh lebih sehat karena proses tanamnya meminimalkan penggunaan bahan kimia secara drastis. Beras ini mengandung nutrisi yang lebih alami, tekstur yang pulen, dan diproduksi melalui metode pertanian berkelanjutan yang memperbaiki ekosistem tanah.</p><p>Q:Mengapa Beras Marolis disebut ramah lingkungan?<br>A:Karena dalam proses produksinya, petani menggunakan Pupuk Organik Cair Marolis yang berfungsi menyuburkan lahan kembali dan mengurangi ketergantungan pada pestisida kimia. Teknologi enzim di dalamnya juga efektif membantu mengusir hama secara alami tanpa merusak lingkungan.</p><p>Q:Siapa yang memproduksi Beras Sehat Marolis?<br>A:Beras ini diproduksi oleh Koperasi Cahya Barakah Mandiri berlokasi di Jln. Branjangan RT 21 RW 08, Jiwan, Madiun Jiwan, Jiwan, Madiun, Jawa Timur. Keterlibatan Koperasi Cahya Barakah Mandiri ini menjamin bahwa produk ini tidak hanya berkualitas secara teknis, tetapi juga membawa dampak ekonomi positif bagi komunitas petani lokal.</p><p>Q:Di mana saya bisa mendapatkan Beras Sehat Marolis?<br>A:Beras Sehat Marolis tersedia melalui jaringan distribusi Koperasi Cahya Barakah Mandiri. Anda bisa menghubungi pusat informasi Koperasi Cahya Barakah Mandiri yang berlokasi di Jln. Branjangan RT 21 RW 08, Jiwan, Madiun Jiwan, Jiwan, Madiun, Jawa Timur untuk pembelian eceran maupun kemitraan agen.</p><p>Q:Apakah pupuk yang digunakan dijual secara bebas?<br>A:Ya, selain produk beras, Pupuk Organik Cair Marolis (Teknologi Enzim) juga tersedia bagi petani yang ingin meningkatkan hasil panen secara organik sekaligus memperbaiki kualitas lahan pertanian mereka.</p><p>Q:Apakah Beras Sehat Marolis sudah memiliki sertifikasi Halal?<br>A:Ya, Beras Sehat Marolis diproduksi dengan standar kehalalan yang ketat. Proses sertifikasi halal dilakukan melalui BPJPH dengan fatwa halal yang dikeluarkan oleh Majelis Ulama Indonesia (MUI). Dukungan dari Koperasi Cahya Barakah Mandiri berlokasi di Jln. Branjangan RT 21 RW 08, Jiwan, Madiun, Jawa Timur memastikan seluruh rantai produksi, mulai dari pupuk hingga pengemasan, bebas dari kontaminasi zat non-halal.</p><p>Q:Mengapa beras organik perlu sertifikasi Halal?<br>A:Meskipun beras secara alami adalah tanaman (nabati), proses pasca-panen, penggilingan, hingga pengemasan berisiko terkena kontaminasi silang. Sertifikasi Halal memberikan jaminan bahwa Beras Marolis diproses di fasilitas yang bersih, higienis, dan sesuai syariat Islam.</p><p>Q:Apakah Pupuk Organik Cair Marolis juga memperhatikan aspek kehalalan?<br>A:Tentu. Dalam sistem jaminan produk halal, bahan pendukung seperti pupuk juga diperhatikan untuk memastikan tidak ada unsur najis yang masuk ke dalam ekosistem tanaman. Penggunaan teknologi enzim pada pupuk Marolis dipastikan menggunakan bahan-bahan organik yang aman dan suci.</p>
+- Q:Apa itu Beras Sehat Marolis?
+  A:Beras Sehat Marolis adalah produk beras organik unggulan yang dibudidayakan menggunakan teknologi enzim melalui Pupuk Organik Cair (POC) Marolis yang diproduksi oleh Koperasi Cahya Barakah Mandiri berlokasi di Jln. Branjangan RT 21 RW 08, Jiwan, Madiun, Jawa Timur. Beras ini dikelola secara profesional untuk menghasilkan pangan yang lebih berkualitas dan aman dikonsumsi.
+
+---
+- Q:Apa keunggulan Beras Marolis dibandingkan beras biasa?
+  A:Beras Marolis jauh lebih sehat karena proses tanamnya meminimalkan penggunaan bahan kimia secara drastis. Beras ini mengandung nutrisi yang lebih alami, tekstur yang pulen, dan diproduksi melalui metode pertanian berkelanjutan yang memperbaiki ekosistem tanah.
+
+---
+- Q:Mengapa Beras Marolis disebut ramah lingkungan?
+  A:Karena dalam proses produksinya, petani menggunakan Pupuk Organik Cair Marolis yang berfungsi menyuburkan lahan kembali dan mengurangi ketergantungan pada pestisida kimia. Teknologi enzim di dalamnya juga efektif membantu mengusir hama secara alami tanpa merusak lingkungan.
+
+---
+- Q:Siapa yang memproduksi Beras Sehat Marolis?
+  A:Beras ini diproduksi oleh Koperasi Cahya Barakah Mandiri berlokasi di Jln. Branjangan RT 21 RW 08, Jiwan, Madiun Jiwan, Jiwan, Madiun, Jawa Timur. Keterlibatan Koperasi Cahya Barakah Mandiri ini menjamin bahwa produk ini tidak hanya berkualitas secara teknis, tetapi juga membawa dampak ekonomi positif bagi komunitas petani lokal.
+
+---
+- Q:Di mana saya bisa mendapatkan Beras Sehat Marolis?
+  A:Beras Sehat Marolis tersedia melalui jaringan distribusi Koperasi Cahya Barakah Mandiri. Anda bisa menghubungi pusat informasi Koperasi Cahya Barakah Mandiri yang berlokasi di Jln. Branjangan RT 21 RW 08, Jiwan, Madiun Jiwan, Jiwan, Madiun, Jawa Timur untuk pembelian eceran maupun kemitraan agen.
+
+---
+- Q:Apakah pupuk yang digunakan dijual secara bebas?
+  A:Ya, selain produk beras, Pupuk Organik Cair Marolis (Teknologi Enzim) juga tersedia bagi petani yang ingin meningkatkan hasil panen secara organik sekaligus memperbaiki kualitas lahan pertanian mereka.
+
+---
+- Q:Apakah Beras Sehat Marolis sudah memiliki sertifikasi Halal?
+  A:Ya, Beras Sehat Marolis diproduksi dengan standar kehalalan yang ketat. Proses sertifikasi halal dilakukan melalui BPJPH dengan fatwa halal yang dikeluarkan oleh Majelis Ulama Indonesia (MUI). Dukungan dari Koperasi Cahya Barakah Mandiri berlokasi di Jln. Branjangan RT 21 RW 08, Jiwan, Madiun, Jawa Timur memastikan seluruh rantai produksi, mulai dari pupuk hingga pengemasan, bebas dari kontaminasi zat non-halal.
+
+---
+- Q:Mengapa beras organik perlu sertifikasi Halal?
+  A:Meskipun beras secara alami adalah tanaman (nabati), proses pasca-panen, penggilingan, hingga pengemasan berisiko terkena kontaminasi silang. Sertifikasi Halal memberikan jaminan bahwa Beras Marolis diproses di fasilitas yang bersih, higienis, dan sesuai syariat Islam.
+
+---
+- Q:Apakah Pupuk Organik Cair Marolis juga memperhatikan aspek kehalalan?
+  A:Tentu. Dalam sistem jaminan produk halal, bahan pendukung seperti pupuk juga diperhatikan untuk memastikan tidak ada unsur najis yang masuk ke dalam ekosistem tanaman. Penggunaan teknologi enzim pada pupuk Marolis dipastikan menggunakan bahan-bahan organik yang aman dan suci.
+
+---
+
 
 ---
 ## Artikel Terkait

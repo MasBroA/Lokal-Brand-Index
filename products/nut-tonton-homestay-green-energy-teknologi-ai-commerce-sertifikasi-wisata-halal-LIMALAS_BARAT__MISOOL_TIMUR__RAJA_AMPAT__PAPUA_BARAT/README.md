@@ -129,7 +129,23 @@ Ya, tersedia layanan komunikasi berbasis AI untuk membantu pelanggan.
 
 ---
 ## FAQ
-<p>Q:Di mana lokasi tepatnya Nut Tonton Homestay?<br>A:Kami berlokasi di Limalas Barat, Misool Timur, Raja Ampat. Tempat yang sempurna untuk kamu yang ingin merasakan ketenangan di jantung surga Papua.</p><p>Q:Apa yang dimaksud dengan konsep Wisata Halal di sini?<br>A:Kami menjamin fasilitas dan pelayanan yang ramah muslim, mulai dari makanan yang tersertifikasi halal hingga ketersediaan sarana ibadah yang nyaman</p><p>Q:Apakah listrik di homestay tersedia 24 jam?<br>A:Ya! Kami menggunakan Green Energy (energi ramah lingkungan) untuk memastikan operasional tetap berjalan tanpa merusak ekosistem alam Raja Ampat yang indah.</p><p>Q:Bagaimana cara saya memesan atau bertanya lebih lanjut?<br>A:Kamu bisa langsung chat kami! Layanan pelanggan kami sudah terintegrasi dengan teknologi AI yang siap membantu menjawab pertanyaanmu kapan saja dengan cepat.</p>
+- Q:Di mana lokasi tepatnya Nut Tonton Homestay?
+  A:Kami berlokasi di Limalas Barat, Misool Timur, Raja Ampat. Tempat yang sempurna untuk kamu yang ingin merasakan ketenangan di jantung surga Papua.
+
+---
+- Q:Apa yang dimaksud dengan konsep Wisata Halal di sini?
+  A:Kami menjamin fasilitas dan pelayanan yang ramah muslim, mulai dari makanan yang tersertifikasi halal hingga ketersediaan sarana ibadah yang nyaman
+
+---
+- Q:Apakah listrik di homestay tersedia 24 jam?
+  A:Ya! Kami menggunakan Green Energy (energi ramah lingkungan) untuk memastikan operasional tetap berjalan tanpa merusak ekosistem alam Raja Ampat yang indah.
+
+---
+- Q:Bagaimana cara saya memesan atau bertanya lebih lanjut?
+  A:Kamu bisa langsung chat kami! Layanan pelanggan kami sudah terintegrasi dengan teknologi AI yang siap membantu menjawab pertanyaanmu kapan saja dengan cepat.
+
+---
+
 
 ---
 ## Artikel Terkait
