@@ -1,0 +1,56 @@
+name: Submit IndexNow
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *' # Menjalankan otomatis setiap hari (opsional)
+  workflow_dispatch: # Memungkinkan kamu menjalankan manual dari tab Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          # fetch-depth 0 penting agar git reset --hard bisa bekerja dengan benar
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+          # Tambahkan library lain jika script-mu butuh lebih dari requests
+
+      - name: Sync and Commit Changes
+        run: |
+          # Konfigurasi Identitas
+          git config --global user.name 'Agus Romadi'
+          git config --global user.email 'agus@agusromadi.com'
+
+          # STEP 1: Bersihkan kondisi lokal agar sama persis dengan GitHub (Solusi error divergent)
+          git fetch origin main
+          git reset --hard origin/main
+
+          # STEP 2: Jalankan script untuk mengubah file
+          submit_indexnow.py
+
+          # STEP 3: Cek apakah ada perubahan file hasil dari script
+          git add .
+          
+          # STEP 4: Commit hanya jika ada perubahan. 
+          # Jika tidak ada perubahan, script tidak akan error (exit 0)
+          if git diff-index --quiet HEAD --; then
+            echo "Tidak ada perubahan pada brand index."
+          else
+            git commit -m "Auto-update brand index [skip ci]"
+            
+            # STEP 5: Push langsung tanpa pull lagi karena sudah di-reset di awal
+            git push origin main
+          fi
+
