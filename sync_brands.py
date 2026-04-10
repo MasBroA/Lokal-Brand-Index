@@ -328,7 +328,7 @@ def create_index_html(product):
         <h1>{nama}</h1>
         <p>{deskripsi}<br>{catatan}</p>
         
-        <a href="https://green.dgeo.id/{folder_path}/index.html"><img src="{{url_foto_profile}}" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>
+        <a href="https://green.dgeo.id/{folder_path}/index.html"><img src="{url_foto_profile}" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>
     </header>
 
     <!-- Katalog Section -->
@@ -548,7 +548,7 @@ def create_faq_html(product):
         <a href="https://green.dgeo.id"><img src="https://green.dgeo.id/images/logo-dgeo-id.png" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>
         <span class="slogan">{tagline}</span>
         <h1>{nama}</h1>        
-        <a href="https://green.dgeo.id/{folder_path}/index.html"><img src="{{url_foto_profile}}" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>
+        <a href="https://green.dgeo.id/{folder_path}/index.html"><img src="{url_foto_profile}" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>
 
     </header>
 
@@ -756,7 +756,7 @@ def create_testimoni_html(product):
         <a href="https://green.dgeo.id"><img src="https://green.dgeo.id/images/logo-dgeo-id.png" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>
         <span class="slogan">{tagline}</span>
         <h1>{nama}</h1>
-        <a href="https://green.dgeo.id/{folder_path}/index.html"><img src="{{url_foto_profile}}" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>        
+        <a href="https://green.dgeo.id/{folder_path}/index.html"><img src="{url_foto_profile}" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>        
     </header>
 
     <!-- Katalog Section -->
@@ -980,7 +980,7 @@ def create_artikel_html(product):
         <a href="https://green.dgeo.id"><img src="https://green.dgeo.id/images/logo-dgeo-id.png" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>
         <span class="slogan">{tagline}</span>
         <h1>{nama}</h1>
-        <a href="https://green.dgeo.id/{folder_path}/index.html"><img src="{{url_foto_profile}}" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>
+        <a href="https://green.dgeo.id/{folder_path}/index.html"><img src="{url_foto_profile}" alt="Logo DGeomart Platform Lokal Brand Index Indonesia" loading="lazy" class="logo"></a>
         
     </header>
 
