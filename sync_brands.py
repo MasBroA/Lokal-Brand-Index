@@ -257,12 +257,12 @@ def create_index_html(product):
             },
             {
                 "@type": "Website",
-                "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
+                "name": nama,
                 "image": "https://green.dgeo.id/images/logo-dgeo-id.png",
-                "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth...",
+                "description": deskripsi,
                 "brand": {
                     "@type": "Brand",
-                    "name": "Dgeo Green"
+                    "name": nama
                 }                
             }
         ]
@@ -285,15 +285,15 @@ def create_index_html(product):
     <meta name="author" content="DGeoId">
     <meta name="theme-color" content="#0f172a">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{short_desc}</title>
-    <meta name="description" content="{short_desc}">
+    <title>{deskripsi}</title>
+    <meta name="description" content="{deskripsi} {catatan}">
     <meta name="keywords" content="{keyword}">
     <link rel="canonical" href="https://green.dgeo.id/">
 
     <!-- Open Graph (Sosial Media) -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{short_desc}">
-    <meta property="og:description" content="{short_desc}">
+    <meta property="og:title" content="{deskripsi}">
+    <meta property="og:description" content="{deskripsi} {catatan}">
     <meta property="og:url" content="https://green.dgeo.id/">
     <meta property="og:image" content="https://green.dgeo.id/images/logo-dgeo-id.png">
     <meta property="og:image:width" content="1200">
@@ -477,12 +477,12 @@ def create_faq_html(product):
             },
             {
                 "@type": "Website",
-                "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
+                "name": nama,
                 "image": "https://green.dgeo.id/images/logo-dgeo-id.png",
-                "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth...",
+                "description": deskripsi,
                 "brand": {
                     "@type": "Brand",
-                    "name": "Dgeo Green"
+                    "name": nama
                 }                
             }
         ]
@@ -505,15 +505,15 @@ def create_faq_html(product):
     <meta name="author" content="DGeoId">
     <meta name="theme-color" content="#0f172a">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{short_desc}</title>
-    <meta name="description" content="{short_desc}">
+    <title>{deskripsi}</title>
+    <meta name="description" content="{deskripsi} {catatan}">
     <meta name="keywords" content="{keyword}">
     <link rel="canonical" href="https://green.dgeo.id/">
 
     <!-- Open Graph (Sosial Media) -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{short_desc}">
-    <meta property="og:description" content="{short_desc}">
+    <meta property="og:title" content="{deskripsi}">
+    <meta property="og:description" content="{deskripsi} {catatan}">
     <meta property="og:url" content="https://green.dgeo.id/">
     <meta property="og:image" content="https://green.dgeo.id/images/logo-dgeo-id.png">
     <meta property="og:image:width" content="1200">
@@ -682,12 +682,12 @@ def create_testimoni_html(product):
             },
             {
                 "@type": "Website",
-                "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
+                "name": nama,
                 "image": "https://green.dgeo.id/images/logo-dgeo-id.png",
-                "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth...",
+                "description": deskripsi,
                 "brand": {
                     "@type": "Brand",
-                    "name": "Dgeo Green"
+                    "name": nama
                 }                
             }
         ]
@@ -710,15 +710,15 @@ def create_testimoni_html(product):
     <meta name="author" content="DGeoId">
     <meta name="theme-color" content="#0f172a">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{short_desc}</title>
-    <meta name="description" content="{short_desc}">
+    <title>{deskripsi}</title>
+    <meta name="description" content="{deskripsi} {catatan}">
     <meta name="keywords" content="{keyword}">
     <link rel="canonical" href="https://green.dgeo.id/">
 
     <!-- Open Graph (Sosial Media) -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{short_desc}">
-    <meta property="og:description" content="{short_desc}">
+    <meta property="og:title" content="{deskripsi}">
+    <meta property="og:description" content="{deskripsi} {catatan}">
     <meta property="og:url" content="https://green.dgeo.id/">
     <meta property="og:image" content="https://green.dgeo.id/images/logo-dgeo-id.png">
     <meta property="og:image:width" content="1200">
@@ -906,12 +906,12 @@ def create_artikel_html(product):
             },
             {
                 "@type": "Website",
-                "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
+                "name": nama,
                 "image": "https://green.dgeo.id/images/logo-dgeo-id.png",
-                "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth...",
+                "description": deskripsi,
                 "brand": {
                     "@type": "Brand",
-                    "name": "Dgeo Green"
+                    "name": nama
                 }                
             }
         ]
@@ -934,15 +934,15 @@ def create_artikel_html(product):
     <meta name="author" content="DGeoId">
     <meta name="theme-color" content="#0f172a">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{short_desc}</title>
-    <meta name="description" content="{short_desc}">
+    <title>{deskripsi}</title>
+    <meta name="description" content="{deskripsi} {catatan}">
     <meta name="keywords" content="{keyword}">
     <link rel="canonical" href="https://green.dgeo.id/">
 
     <!-- Open Graph (Sosial Media) -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{short_desc}">
-    <meta property="og:description" content="{short_desc}">
+    <meta property="og:title" content="{deskripsi}">
+    <meta property="og:description" content="{deskripsi} {catatan}">
     <meta property="og:url" content="https://green.dgeo.id/">
     <meta property="og:image" content="https://green.dgeo.id/images/logo-dgeo-id.png">
     <meta property="og:image:width" content="1200">
@@ -1106,12 +1106,12 @@ def create_galeri_html(product):
             },
             {
                 "@type": "Website",
-                "name": "Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified",
+                "name": nama,
                 "image": "https://green.dgeo.id/images/logo-dgeo-id.png",
-                "description": "Platform indeks brand lokal terpercaya untuk Sustainable Local Growth...",
+                "description": deskripsi,
                 "brand": {
                     "@type": "Brand",
-                    "name": "Dgeo Green"
+                    "name": nama
                 }                
             }
         ]
@@ -1143,15 +1143,15 @@ def create_galeri_html(product):
     <meta name="author" content="DGeoId">
     <meta name="theme-color" content="#0f172a">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified</title>
-    <meta name="description" content="Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk">
+    <title>{deskripsi}</title>
+    <meta name="description" content="{deskripsi} {catatan}">
     <meta name="keywords" content="{keyword}">
     <link rel="canonical" href="https://green.dgeo.id/">
 
     <!-- Open Graph (Sosial Media) -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Lokal Brand Index - Smart Indexing for Sustainable Local Growth, Produk Ramah Lingkungan, Halal Certified, and AI Verified">
-    <meta property="og:description" content="Platform indeks brand lokal terpercaya untuk Sustainable Local Growth dengan standar verifikasi AI, Sertifikasi Halal yang mendukung energi hijau sebagai energi ramah lingkungan dalam setiap proses produksi, penjualan, distribusi termasuk layanan produk">
+    <meta property="og:title" content="{deskripsi}">
+    <meta property="og:description" content="{deskripsi} {catatan}">
     <meta property="og:url" content="https://green.dgeo.id/">
     <meta property="og:image" content="https://green.dgeo.id/images/logo-dgeo-id.png">
     <meta property="og:image:width" content="1200">
