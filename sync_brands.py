@@ -208,10 +208,10 @@ def create_index_html(product):
         list_faq += f'<p>Q:{a["judul"]}<br>A:{a["short_desc"]}</p>'
 
     for i, a in enumerate(product['ARTIKEL']):
-        list_artikel += f'- 📄 {a["judul"]}\n{a["deskripsi"]}\n\n---\n'
+        list_artikel += f'<p><b>{a["judul"]}</b><br>A:{a["deskripsi"]}</p>'
 
     for i, a in enumerate(product['TESTIMONI']):
-        list_testimoni += f'- 📄 {a["short_desc"]}\n{a["by_nama"]}, {a["by_jabatan"]}, {a["by_alamat"]}\n\n---\n'
+        list_testimoni += f'<p><i>{a["short_desc"]}</i><br>{a["by_nama"]}, {a["by_jabatan"]}, {a["by_alamat"]}</p>'
 
 
     # Proteksi jika data null
