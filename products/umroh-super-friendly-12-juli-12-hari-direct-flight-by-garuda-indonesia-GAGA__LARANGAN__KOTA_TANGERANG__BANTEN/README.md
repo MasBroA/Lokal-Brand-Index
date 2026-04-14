@@ -10,8 +10,7 @@
   "@type": "LocalBusiness",
   "name": "Umroh Super Friendly - 12 Juli - 12 Hari - Direct Flight By Garuda Indonesia",
   "kontak": "Khalifah Asia Tour & Travel - 0217313194 - khalifahasiatravel@gmail.com",
-  "description": "Tentang Kami
-Khalifah Asia, hadir sebagai solusi perjalanan ibadah terpercaya sejak 2014! Kami adalah biro perjalanan yang menyediakan layanan Haji Khusus dan Umrah Musim Baru dengan fasilitas terbaik dan pelayanan berkualitas untuk memastikan ibadah Anda berjalan lancar dan penuh berkah. Kami travel umroh terbaik dan agen haji & umroh resmi yang terdaftar di Kementerian Agama Republik Indonesia dengan izin resmi
+  "description": "Paket Umroh Liburan Sekolah - 12 Juli 2026 - 12 Hari - Direct Flight by Garuda Indonesia keberangkatan 12 Juli 2026, pulang sekitar 25 Juli 2026 bersama Khalifah Asia Tour & Travel Kami travel umroh terbaik dan agen haji & umroh resmi yang terdaftar di Kementerian Agama Republik Indonesia dengan izin resmi
 PPIU No U2842020
 PIHK 02201053910880005
 
@@ -44,11 +43,25 @@ title: "Umroh Super Friendly - 12 Juli - 12 Hari - Direct Flight By Garuda Indon
 - Latitude: -6.2416282
 - Longitude: 106.7263109
 
-last_updated: "2026-04-14 11:54:11"
+last_updated: "2026-04-14 12:59:25"
 ---
 ## Ringkasan
-Tentang Kami
-Khalifah Asia, hadir sebagai solusi perjalanan ibadah terpercaya sejak 2014! Kami adalah biro perjalanan yang menyediakan layanan Haji Khusus dan Umrah Musim Baru dengan fasilitas terbaik dan pelayanan berkualitas untuk memastikan ibadah Anda berjalan lancar dan penuh berkah.
+Paket Umroh Liburan Sekolah - 12 Juli 2026 - 12 Hari - Direct Flight by Garuda Indonesia keberangkatan 12 Juli 2026, pulang sekitar 25 Juli 2026 bersama Khalifah Asia Tour & Travel
+
+Harga Paket Per jamaah
+
+Quad (4 orang/kamar): mulai Rp 31,5 juta – Rp 34,9 juta
+Triple (3 orang/kamar): mulai Rp 33 juta – Rp 36,6 juta
+Double (2 orang/kamar): mulai Rp 36 juta – Rp 37,5 juta
+
+Sudah Termasuk
+- Tiket pesawat PP Direct Flight Garuda Indonesia (Jakarta – Madinah/Jeddah PP, tanpa transit)
+- Hotel di Madinah (bintang 4, dekat Masjid Nabawi)
+- Hotel Mekkah (bintang 4, dekat Masjidil Haram)
+- Makanan fullboard (Indonesia/syariat)
+- Transportasi bus AC + ziarah standar (Madinah: Raudhah, Uhud, Quba dll; Mekkah: city tour)
+- Visa umroh, handling, perlengkapan umroh (ihram, tas, dll), air zam-zam
+- Bimbingan mutawif/umrah guide
 
 ---
 ## Tentang produk/brand ini
@@ -80,6 +93,10 @@ Informasi lebih lanjut hubungi CS Khalifah Asia Tour Travel dan website resmi di
 
 ---
 ## Artikel Terkait
+- 📄 Khalifah Asia - Legalitas Resmi & Terpercaya
+khalifahasia Travel Umroh telah terdaftar resmi di Kementerian Agama RI, menjamin keamanan dan kepercayaan selama menjalankan ibadah umroh.
+
+---
 
 
 ---

@@ -10,7 +10,7 @@
   "@type": "LocalBusiness",
   "name": "Umroh Liburan Sekolah - 27 Jun - 09 Hari - Direct Flight By Garuda Indonesia",
   "kontak": "Khalifah Asia Tour & Travel - 0217313194 - khalifahasiatravel@gmail.com",
-  "description": "Perjalanan ibadah Umroh pada musih liburan sekolah 2026 bersama Khalifah Asia Informasi lebih lanjut hubungi CS Khalifah Asia Tour Travel dan website resmi di https://khalifahasia.co.id",
+  "description": "Paket Umroh Liburan Sekolah - 27 Jun - 09 Hari - Direct Flight by Garuda Indonesia keberangkatan 27 Juni 2026, pulang sekitar 5 Juli 2026 bersama Khalifah Asia Tour & Travel Informasi lebih lanjut hubungi CS Khalifah Asia Tour Travel dan website resmi di https://khalifahasia.co.id",
   "url": "https://green.dgeo.id",
   "image": "https://produk.dgeomart.com/upload/profile/1776142067_Umroh Liburan Sekolah - 27 Jun - 09 Hari - Direct Flight By Garuda Indonesia.jpeg",
   "address": {
@@ -43,10 +43,30 @@ Jl. Prof. Dr. Hamka No.99, RT.004/RW.001, Gaga, Kec. Larangan, Kota Tangerang, B
 - Latitude: -6.2416282
 - Longitude: 106.7263109
 
-last_updated: "2026-04-14 11:47:47"
+last_updated: "2026-04-14 12:54:40"
 ---
 ## Ringkasan
-Perjalanan ibadah Umroh pada musih liburan sekolah 2026 bersama Khalifah Asia
+Paket Umroh Liburan Sekolah - 27 Jun - 09 Hari - Direct Flight by Garuda Indonesia keberangkatan 27 Juni 2026, pulang sekitar 5 Juli 2026.
+
+Harga Paket Per jamaah
+
+Quad (kamar 4 orang): mulai Rp 28.500.000 – Rp 29.900.000
+Triple (kamar 3 orang): mulai Rp 29.300.000 – Rp 31.000.000
+Double (kamar 2 orang): mulai Rp 31.300.000 – Rp 33.000.000+
+
+Sudah Termasuk
+- Tiket pesawat PP Direct Flight Garuda Indonesia (Jakarta – Madinah/Jeddah PP, tanpa transit)
+- Hotel di Madinah (bintang 4, dekat Masjid Nabawi)
+- Hotel Mekkah (bintang 4, dekat Masjidil Haram)
+- Makanan fullboard (Indonesia/syariat)
+- Transportasi bus AC + ziarah standar (Madinah: Raudhah, Uhud, Quba dll; Mekkah: city tour)
+- Visa umroh, handling, perlengkapan umroh (ihram, tas, dll), air zam-zam
+- Bimbingan mutawif/umrah guide
+
+Durasi & Jadwal Umum
+Berangkat: 27 Juni 2026 (pagi/siang dari CGK)
+Pulang: ± 5 Juli 2026 (total 9 hari di Tanah Suci)
+Program: Madinah 3–4 hari → Mekkah 4–5 hari → pulang
 
 ---
 ## Tentang produk/brand ini
