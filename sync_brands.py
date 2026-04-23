@@ -1791,7 +1791,6 @@ End of AI Knowledge File
 # --- EKSEKUSI UTAMA ---
 print("🚀 Memulai sinkronisasi data dari API DGeomart...")
 products = fetch_brands_from_api()
-sys.exit()
 
 if products:
     generate_llms()
