@@ -2,15 +2,23 @@ import os
 import json
 import requests
 import shutil
+import sys
 
 from pathlib import Path
 from datetime import datetime, timezone, date
 
 def fetch_brands_from_api():
     api_url = "https://produk.dgeomart.com/api/publik/product/list_latest_update"
+
+    params = {
+        "domain" : "GREEN"
+    }
     try:
-        response = requests.get(api_url, timeout=15)
+        response = requests.get(api_url, params=params, timeout=15)
         response.raise_for_status()
+
+        print(json.dumps(response.json(), indent=2, ensure_ascii=False))
+
         return response.json()
     except Exception as e:
         print(f"❌ Gagal ambil data API: {e}")
@@ -1783,6 +1791,7 @@ End of AI Knowledge File
 # --- EKSEKUSI UTAMA ---
 print("🚀 Memulai sinkronisasi data dari API DGeomart...")
 products = fetch_brands_from_api()
+sys.exit()
 
 if products:
     generate_llms()
